@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Hamburger as HB, Hotdog as HD } from '@styled-icons/fa-solid'
 
 export const NavTop = styled.div`
     margin: 0;
@@ -32,3 +33,7 @@ export const NavTopLeft = styled.div`
     align-items: center;
     flex: 0;
 `
+
+export const Hamburger = styled(HB)``
+
+export const Hotdog = styled(HD)``

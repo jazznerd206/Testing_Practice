@@ -5,7 +5,7 @@ import { Top } from './styled/styled.app';
 function App() {
   return (
     <Top>
-      <Navbar />
+      <Navbar open={false}/>
       <Main />
     </Top>
   );

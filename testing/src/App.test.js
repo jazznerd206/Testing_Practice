@@ -1,8 +1,11 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const textElement = screen.getByText(/'TEST'/h1);
+beforeEach(() => {
+  render(<App />)
+});
+
+test('App renders main component with text', () => {
+  const textElement = screen.getByTestId('main');
   expect(textElement).toBeInTheDocument();
 });

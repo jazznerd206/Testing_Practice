@@ -4,7 +4,7 @@ import { MainContainer } from '../../styled/styled.main'
 function Main() {
     return (
         <MainContainer data-testid="main" >
-            TEST
+            <h1>TEST</h1>
         </MainContainer>
     )
 }
