@@ -1,11 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from './components/NavBar/Navbar';
+import Main from './components/Main/Main';
+import { Top } from './styled/styled.app';
 
 function App() {
   return (
-    <div className="App">
-      <h1>TEST</h1>
-    </div>
+    <Top>
+      <Navbar />
+      <Main />
+    </Top>
   );
 }
 
